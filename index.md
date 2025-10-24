@@ -1,11 +1,11 @@
 ---
 layout: default
-title: "Resume | Amar AZ"
+title: "Resume | Ammar Azman"
 ---
 
-# 👋 Hi, I'm **Amar AZ**
+# 👋 Hi, I'm **Amar**
 
-> DevOps Engineer | Cloud | Automation | Linux | Infrastructure as Code
+> Network Engineer | Virtualisation | Cloud | Automation | Linux | Infrastructure as Code
 
 Welcome to my personal site — a space where I share my work, learning journey, and projects.  
 I'm passionate about **automation**, **Kubernetes**, **CI/CD**, and **infrastructure management** using tools like **Terraform**, **Ansible**, and **Proxmox**.
@@ -14,7 +14,7 @@ I'm passionate about **automation**, **Kubernetes**, **CI/CD**, and **infrastruc
 
 ## 🧍 About Me
 
-- 💼 **Profession:** DevOps / Cloud Engineer  
+- 💼 **Profession:** Network Engineer  
 - 🌍 **Location:** Malaysia  
 - 💡 **Interests:** Infrastructure Automation, Monitoring, Cloud (AWS, Proxmox), CI/CD Pipelines  
 - 🛠️ **Currently Working On:** Building automated Proxmox LXC labs with GitHub Actions and Terraform  
