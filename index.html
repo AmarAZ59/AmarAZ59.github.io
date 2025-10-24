@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ammar Azman | Network Engineer</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Animate on scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/img/avatar.png" />
+  </head>
+
+  <body class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-gray-100 font-sans scroll-smooth">
+    <!-- Navbar -->
+    <nav class="fixed w-full bg-gray-900/80 backdrop-blur-lg z-50">
+      <div class="max-w-6xl mx-auto flex justify-between items-center py-4 px-6">
+        <h1 class="text-xl font-bold text-cyan-400">Ammar Azman</h1>
+        <div class="space-x-6 hidden md:block">
+          <a href="#about" class="hover:text-cyan-400">About</a>
+          <a href="#skills" class="hover:text-cyan-400">Skills</a>
+          <a href="#experience" class="hover:text-cyan-400">Experience</a>
+          <a href="#projects" class="hover:text-cyan-400">Projects</a>
+          <a href="#contact" class="hover:text-cyan-400">Contact</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="h-screen flex flex-col justify-center items-center text-center px-6">
+      <h2 class="text-4xl md:text-6xl font-bold mb-4 text-cyan-400" data-aos="fade-up">
+        Hi, I'm Ammar Azman
+      </h2>
+      <p class="text-xl md:text-2xl text-gray-300" data-aos="fade-up" data-aos-delay="200">
+        Network Engineer
+      </p>
+      <a href="#contact" class="mt-8 inline-block bg-cyan-500 hover:bg-cyan-600 text-white py-3 px-6 rounded-full transition duration-300" data-aos="fade-up" data-aos-delay="400">
+        Get in Touch
+      </a>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="py-20 max-w-5xl mx-auto px-6" data-aos="fade-up">
+      <h2 class="text-3xl font-bold text-cyan-400 mb-6 text-center">About Me</h2>
+      <p class="text-lg text-gray-300 leading-relaxed text-center">
+        I’m a Network Engineer passionate about automation, infrastructure, and system reliability.
+        Skilled in managing and optimizing network systems, and exploring technologies such as
+        Linux, virtualization, and CI/CD tools. I enjoy building efficient systems and learning new technologies.
+      </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-20 bg-gray-800/60" data-aos="fade-up">
+      <div class="max-w-5xl mx-auto px-6">
+        <h2 class="text-3xl font-bold text-cyan-400 mb-10 text-center">Skills</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 text-center">
+          <div class="p-4 bg-gray-900/70 rounded-xl hover:bg-gray-900/90 transition">Cisco Networking</div>
+          <div class="p-4 bg-gray-900/70 rounded-xl hover:bg-gray-900/90 transition">Linux Administration</div>
+          <div class="p-4 bg-gray-900/70 rounded-xl hover:bg-gray-900/90 transition">Automation (Ansible)</div>
+          <div class="p-4 bg-gray-900/70 rounded-xl hover:bg-gray-900/90 transition">Cloud Fundamentals</div>
+          <div class="p-4 bg-gray-900/70 rounded-xl hover:bg-gray-900/90 transition">Docker / Kubernetes</div>
+          <div class="p-4 bg-gray-900/70 rounded-xl hover:bg-gray-900/90 transition">Terraform</div>
+          <div class="p-4 bg-gray-900/70 rounded-xl hover:bg-gray-900/90 transition">Proxmox / VMware</div>
+          <div class="p-4 bg-gray-900/70 rounded-xl hover:bg-gray-900/90 transition">GitHub Actions</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section id="experience" class="py-20 max-w-5xl mx-auto px-6" data-aos="fade-up">
+      <h2 class="text-3xl font-bold text-cyan-400 mb-10 text-center">Experience</h2>
+      <div class="space-y-8">
+        <div class="p-6 bg-gray-900/70 rounded-xl shadow-md">
+          <h3 class="text-xl font-semibold text-cyan-300">Network Engineer — Freelance / Lab Projects</h3>
+          <p class="text-gray-400 text-sm mb-2">2023 – Present</p>
+          <p>
+            Designed and implemented small-scale lab environments using virtualization technologies like Proxmox
+            and VMware. Built network automation scripts and explored DevOps tools for hybrid network/cloud systems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="py-20 bg-gray-800/60" data-aos="fade-up">
+      <div class="max-w-5xl mx-auto px-6 text-center">
+        <h2 class="text-3xl font-bold text-cyan-400 mb-10">Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="p-6 bg-gray-900/70 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold mb-2">Project 1</h3>
+            <p class="text-gray-400 mb-3">A network automation project built using Ansible and Python.</p>
+            <a href="#" class="text-cyan-400 hover:underline">View on GitHub →</a>
+          </div>
+          <div class="p-6 bg-gray-900/70 rounded-xl shadow hover:shadow-lg transition">
+            <h3 class="text-xl font-semibold mb-2">Project 2</h3>
+            <p class="text-gray-400 mb-3">Containerized lab using Proxmox and CI/CD pipelines.</p>
+            <a href="#" class="text-cyan-400 hover:underline">View on GitHub →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 max-w-5xl mx-auto px-6 text-center" data-aos="fade-up">
+      <h2 class="text-3xl font-bold text-cyan-400 mb-10">Get in Touch</h2>
+      <p class="text-gray-300 mb-6">
+        Feel free to connect with me for collaboration or networking opportunities.
+      </p>
+      <div class="space-x-6">
+        <a href="#" class="text-cyan-400 hover:underline">GitHub</a>
+        <a href="#" class="text-cyan-400 hover:underline">LinkedIn</a>
+        <a href="#" class="text-cyan-400 hover:underline">Email</a>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-6 bg-gray-900/80 text-gray-500 text-sm">
+      © 2025 Ammar Azman — Built with ❤️ and Tailwind CSS
+    </footer>
+
+    <!-- AOS Script -->
+    <script>
+      AOS.init({
+        duration: 800,
+        once: true,
+      });
+    </script>
+  </body>
+</html>
