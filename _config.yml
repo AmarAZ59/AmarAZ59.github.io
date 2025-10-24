@@ -1,5 +1,68 @@
-title: Midnight theme
-description: Midnight is a theme for GitHub Pages.
-show_downloads: true
-google_analytics:
-theme: jekyll-theme-midnight
+# Site settings
+title: "Amar AZ"
+description: "DevOps Engineer | Cloud | Automation | Linux | Infrastructure as Code"
+url: "https://amaraz59.github.io"
+baseurl: ""
+
+# Author details
+author:
+  name: "Amar AZ"
+  email: "your.email@example.com"
+  avatar: "assets/img/profile.jpg"
+  location: "Malaysia"
+  linkedin: "https://linkedin.com/in/amaraz59"
+  github: "https://github.com/AmarAZ59"
+  twitter: "https://twitter.com/yourhandle"
+
+# Theme
+theme: jekyll-theme-cayman
+# Other great themes: jekyll-theme-minimal, jekyll-theme-leap-day, jekyll-theme-modernist, jekyll-theme-midnight
+
+# Custom colors (only works on some themes)
+github:
+  is_project_page: false
+
+# Google Analytics (optional)
+google_analytics: G-XXXXXXXXXX
+
+# Social links for footer
+social_links:
+  - name: GitHub
+    url: "https://github.com/AmarAZ59"
+  - name: LinkedIn
+    url: "https://linkedin.com/in/amaraz59"
+  - name: Email
+    url: "mailto:your.email@example.com"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO
+seo:
+  name: "Amar AZ"
+  type: "Person"
+  social:
+    github: "AmarAZ59"
+    linkedin: "amaraz59"
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Custom sections for your resume (used in layouts)
+sections:
+  - About
+  - Skills
+  - Experience
+  - Projects
+  - Education
+  - Certifications
+  - Contact
+
