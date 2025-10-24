@@ -1,0 +1,20 @@
+---
+---
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(135deg, #0f172a, #1e293b, #0f172a);
+  color: #f1f5f9;
+  font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+section {
+  transition: all 0.4s ease-in-out;
+}
+
+a {
+  transition: color 0.3s;
+}
