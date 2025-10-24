@@ -66,3 +66,9 @@ sections:
   - Certifications
   - Contact
 
+# Custom CSS
+sass:
+  style: compressed
+include:
+  - assets/css
+
